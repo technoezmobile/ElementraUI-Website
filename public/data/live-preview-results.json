@@ -1,0 +1,154 @@
+[
+  {
+    "resourceId": "shimmer-light-button",
+    "name": "Shimmer Beam Action Button",
+    "testGroup": "Simple React component",
+    "resourceType": "executable-react-source",
+    "sourceAvailable": true,
+    "rendererSelected": "sandboxed-react-live",
+    "dependenciesAvailable": true,
+    "compilationStatus": "compiled",
+    "mountStatus": "mounted",
+    "visibleRenderingStatus": "visible-live",
+    "interactionStatus": "n/a",
+    "isScreenshot": false,
+    "dimensions": {
+      "width": 753,
+      "height": 480
+    },
+    "failureReason": null
+  },
+  {
+    "resourceId": "floating-sphere-3d",
+    "name": "Interactive 3D Floating Sphere",
+    "testGroup": "React with external dependencies (Three.js)",
+    "resourceType": "executable-react-source",
+    "sourceAvailable": true,
+    "rendererSelected": "sandboxed-react-live",
+    "dependenciesAvailable": true,
+    "compilationStatus": "compiled",
+    "mountStatus": "mounted",
+    "visibleRenderingStatus": "visible-live",
+    "interactionStatus": "n/a",
+    "isScreenshot": false,
+    "dimensions": {
+      "width": 753,
+      "height": 480
+    },
+    "failureReason": null
+  },
+  {
+    "resourceId": "magicui-lens",
+    "name": "Lens",
+    "testGroup": "Interactive component (cursor magnification)",
+    "resourceType": "executable-react-source",
+    "sourceAvailable": true,
+    "rendererSelected": "sandboxed-react-live",
+    "dependenciesAvailable": true,
+    "compilationStatus": "compiled",
+    "mountStatus": "mounted",
+    "visibleRenderingStatus": "visible-live",
+    "interactionStatus": "interactive",
+    "isScreenshot": false,
+    "dimensions": {
+      "width": 753,
+      "height": 480
+    },
+    "failureReason": null
+  },
+  {
+    "resourceId": "marquee-showcase",
+    "name": "Hardware-Accelerated Infinite Marquee",
+    "testGroup": "Component using CSS animations",
+    "resourceType": "executable-react-source",
+    "sourceAvailable": true,
+    "rendererSelected": "sandboxed-react-live",
+    "dependenciesAvailable": true,
+    "compilationStatus": "compiled",
+    "mountStatus": "mounted",
+    "visibleRenderingStatus": "visible-live",
+    "interactionStatus": "n/a",
+    "isScreenshot": false,
+    "dimensions": {
+      "width": 753,
+      "height": 480
+    },
+    "failureReason": null
+  },
+  {
+    "resourceId": "awesome-0xurvish-animated-collection-default",
+    "name": "Animated Collection",
+    "testGroup": "HTML/CSS resource",
+    "resourceType": "static-html-snapshot",
+    "sourceAvailable": true,
+    "rendererSelected": "static-html-iframe",
+    "dependenciesAvailable": true,
+    "compilationStatus": "n/a",
+    "mountStatus": "mounted",
+    "visibleRenderingStatus": "visible-html",
+    "interactionStatus": "n/a",
+    "isScreenshot": false,
+    "dimensions": {
+      "width": 753,
+      "height": 480
+    },
+    "failureReason": null
+  },
+  {
+    "resourceId": "awesome-isaiahbjork-reveal-text-default-fallback",
+    "name": "Reveal Text (Simulated HTML 404 Fallback)",
+    "testGroup": "Screenshot-only resource",
+    "resourceType": "screenshot-only",
+    "sourceAvailable": false,
+    "rendererSelected": "verified-screenshot",
+    "dependenciesAvailable": true,
+    "compilationStatus": "n/a",
+    "mountStatus": "n/a",
+    "visibleRenderingStatus": "visible-screenshot",
+    "interactionStatus": "n/a",
+    "isScreenshot": true,
+    "dimensions": {
+      "naturalWidth": 992,
+      "naturalHeight": 944
+    },
+    "failureReason": null
+  },
+  {
+    "resourceId": "test-missing-deps-component",
+    "name": "Slider Component with Missing Dependency",
+    "testGroup": "Resource with missing dependencies",
+    "resourceType": "react-source-unresolved-deps",
+    "sourceAvailable": true,
+    "rendererSelected": "unresolved-deps-notice",
+    "dependenciesAvailable": false,
+    "compilationStatus": "unresolved-deps",
+    "mountStatus": "unmounted",
+    "visibleRenderingStatus": "diagnostic-warning",
+    "interactionStatus": "n/a",
+    "isScreenshot": false,
+    "dimensions": {
+      "width": 0,
+      "height": 0
+    },
+    "failureReason": null
+  },
+  {
+    "resourceId": "shadcn-accordion",
+    "name": "Accordion",
+    "testGroup": "Resource whose source is unavailable",
+    "resourceType": "source-unavailable",
+    "sourceAvailable": false,
+    "rendererSelected": "diagnostic-blueprint",
+    "dependenciesAvailable": true,
+    "compilationStatus": "n/a",
+    "mountStatus": "n/a",
+    "visibleRenderingStatus": "blueprint",
+    "interactionStatus": "n/a",
+    "isScreenshot": false,
+    "dimensions": {
+      "width": 0,
+      "height": 0
+    },
+    "failureReason": null
+  }
+]

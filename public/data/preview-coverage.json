@@ -1,0 +1,115 @@
+{
+  "auditDate": "2026-10-19T07:34:40.212Z",
+  "environment": "21st Local Component Platform",
+  "requiredTwelveMetrics": {
+    "totalRecords": 6753,
+    "availableHtml": 6590,
+    "validScreenshots": 6585,
+    "prompts": 6594,
+    "localReactImplementations": 16,
+    "testedInBrowser": 54,
+    "browserPassed": 48,
+    "browserFailed": 0,
+    "unavailable": 6,
+    "htmlSnapshotsRendered": 30,
+    "screenshotsRendered": 2,
+    "missingAssets": 7
+  },
+  "datasetMetrics": {
+    "totalRecords": 6753,
+    "coreItemsCount": 162,
+    "awesomeItemsCount": 6591,
+    "executableVerifiedCount": 16,
+    "validHtmlSnapshotCount": 6590,
+    "emptyHtmlSnapshotCount": 1,
+    "validScreenshotCount": 6585,
+    "emptyScreenshotCount": 6,
+    "corruptScreenshotCount": 0,
+    "promptBlueprintCount": 6594,
+    "cliInstallableCount": 154,
+    "totalVisuallyPreviewable": 6607,
+    "visualCoveragePercent": 97.84
+  },
+  "browserAuditSummary": {
+    "passedCount": 48,
+    "blueprintCount": 3,
+    "referenceOnlyCount": 1,
+    "unavailableCount": 2,
+    "partialCount": 0,
+    "failedCount": 0,
+    "htmlSnapshotsRendered": 30,
+    "screenshotsRendered": 2,
+    "executableReactRendered": 16
+  },
+  "zeroByteItems": {
+    "html": [
+      {
+        "id": "awesome-0xurvish-bucket-default",
+        "name": "Bucket",
+        "path": "components/0-9/0xurvish/bucket/default/rendered.html"
+      }
+    ],
+    "screenshot": [
+      {
+        "id": "awesome-0xurvish-bucket-default",
+        "name": "Bucket",
+        "path": "components/0-9/0xurvish/bucket/default/screenshot.png"
+      },
+      {
+        "id": "awesome-abhinavcdev-3d-sliding-cards-default",
+        "name": "3d Sliding Cards",
+        "path": "components/a/abhinavcdev/3d-sliding-cards/default/screenshot.png"
+      },
+      {
+        "id": "awesome-erikx-galaxy-interactive-hero-section-default",
+        "name": "Galaxy Interactive Hero Section",
+        "path": "components/e/erikx/galaxy-interactive-hero-section/default/screenshot.png"
+      },
+      {
+        "id": "awesome-kedhar-particle-animation-default",
+        "name": "Particle Animation",
+        "path": "components/k/kedhar/particle-animation/default/screenshot.png"
+      },
+      {
+        "id": "awesome-kurket21-progressive-hero-default",
+        "name": "Progressive Hero",
+        "path": "components/k/kurket21/progressive-hero/default/screenshot.png"
+      },
+      {
+        "id": "awesome-thanh-schema-card-with-animated-wave-visualizer-default",
+        "name": "Schema Card With Animated Wave Visualizer",
+        "path": "components/t/thanh/schema-card-with-animated-wave-visualizer/default/screenshot.png"
+      }
+    ]
+  },
+  "bucketDistribution": {
+    "0-9": 23,
+    "a": 807,
+    "b": 202,
+    "c": 279,
+    "d": 197,
+    "e": 306,
+    "f": 205,
+    "g": 7,
+    "h": 387,
+    "i": 118,
+    "j": 231,
+    "k": 157,
+    "l": 77,
+    "m": 340,
+    "n": 69,
+    "o": 323,
+    "p": 163,
+    "q": 5,
+    "r": 1137,
+    "s": 937,
+    "t": 291,
+    "u": 204,
+    "v": 49,
+    "w": 20,
+    "x": 16,
+    "y": 41
+  },
+  "categoryCount": 12,
+  "authorCount": 362
+}

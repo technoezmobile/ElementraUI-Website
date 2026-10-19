@@ -1,0 +1,1594 @@
+{
+  "auditTimestamp": "2026-10-19T07:57:40.458Z",
+  "browser": "Chromium (Playwright Headless)",
+  "baseUrl": "http://127.0.0.1:5173",
+  "totalAudited": 54,
+  "summary": {
+    "passedCount": 48,
+    "blueprintCount": 3,
+    "referenceOnlyCount": 1,
+    "unavailableCount": 2,
+    "partialCount": 0,
+    "failedCount": 0,
+    "htmlSnapshotsRendered": 30,
+    "screenshotsRendered": 2,
+    "executableReactRendered": 16
+  },
+  "results": [
+    {
+      "id": "floating-sphere-3d",
+      "targetItemId": "floating-sphere-3d",
+      "name": "Interactive 3D Floating Sphere",
+      "category": "3D & WebGL",
+      "expectedKind": "executable-verified",
+      "observedKind": "executable-verified",
+      "status": "pass",
+      "dimensions": {
+        "width": 817,
+        "height": 581
+      },
+      "hasRenderedContent": true,
+      "screenshotPath": "artifacts/preview-audit/floating-sphere-3d.png",
+      "screenshotDiagnostics": null,
+      "errors": [],
+      "networkFailures": [
+        {
+          "url": "http://127.0.0.1:5173/vendor/tailwind-play.js",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/vendor/isolated-react-runtime.js",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "aurora-webgl-shader",
+      "targetItemId": "aurora-webgl-shader",
+      "name": "Real-time Aurora Wave Shader",
+      "category": "Shaders & Canvas",
+      "expectedKind": "executable-verified",
+      "observedKind": "executable-verified",
+      "status": "pass",
+      "dimensions": {
+        "width": 817,
+        "height": 581
+      },
+      "hasRenderedContent": true,
+      "screenshotPath": "artifacts/preview-audit/aurora-webgl-shader.png",
+      "screenshotDiagnostics": null,
+      "errors": [],
+      "networkFailures": [
+        {
+          "url": "http://127.0.0.1:5173/vendor/tailwind-play.js",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/vendor/isolated-react-runtime.js",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "interactive-3d-card",
+      "targetItemId": "interactive-3d-card",
+      "name": "Interactive 3D Spring Tilt Card",
+      "category": "Cards & Bento",
+      "expectedKind": "executable-verified",
+      "observedKind": "executable-verified",
+      "status": "pass",
+      "dimensions": {
+        "width": 817,
+        "height": 581
+      },
+      "hasRenderedContent": true,
+      "screenshotPath": "artifacts/preview-audit/interactive-3d-card.png",
+      "screenshotDiagnostics": null,
+      "errors": [],
+      "networkFailures": [
+        {
+          "url": "http://127.0.0.1:5173/vendor/tailwind-play.js",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/vendor/isolated-react-runtime.js",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "kinetic-hero-section",
+      "targetItemId": "kinetic-hero-section",
+      "name": "Kinetic Glow Landing Hero",
+      "category": "Heroes & Landing",
+      "expectedKind": "executable-verified",
+      "observedKind": "executable-verified",
+      "status": "pass",
+      "dimensions": {
+        "width": 817,
+        "height": 581
+      },
+      "hasRenderedContent": true,
+      "screenshotPath": "artifacts/preview-audit/kinetic-hero-section.png",
+      "screenshotDiagnostics": null,
+      "errors": [],
+      "networkFailures": [
+        {
+          "url": "http://127.0.0.1:5173/vendor/tailwind-play.js",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/vendor/isolated-react-runtime.js",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "blur-reveal-typography",
+      "targetItemId": "blur-reveal-typography",
+      "name": "Staggered Blur-In Typography",
+      "category": "Typography & Motion",
+      "expectedKind": "executable-verified",
+      "observedKind": "executable-verified",
+      "status": "pass",
+      "dimensions": {
+        "width": 817,
+        "height": 581
+      },
+      "hasRenderedContent": true,
+      "screenshotPath": "artifacts/preview-audit/blur-reveal-typography.png",
+      "screenshotDiagnostics": null,
+      "errors": [],
+      "networkFailures": [
+        {
+          "url": "http://127.0.0.1:5173/vendor/tailwind-play.js",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/vendor/isolated-react-runtime.js",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "floating-pill-nav",
+      "targetItemId": "floating-pill-nav",
+      "name": "Floating Island Pill Navigation",
+      "category": "Navigation & Menus",
+      "expectedKind": "executable-verified",
+      "observedKind": "executable-verified",
+      "status": "pass",
+      "dimensions": {
+        "width": 817,
+        "height": 581
+      },
+      "hasRenderedContent": true,
+      "screenshotPath": "artifacts/preview-audit/floating-pill-nav.png",
+      "screenshotDiagnostics": null,
+      "errors": [],
+      "networkFailures": [
+        {
+          "url": "http://127.0.0.1:5173/vendor/tailwind-play.js",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/vendor/isolated-react-runtime.js",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "staggered-interactive-gallery",
+      "targetItemId": "staggered-interactive-gallery",
+      "name": "Interactive Staggered 3D Gallery",
+      "category": "Cards & Bento",
+      "expectedKind": "executable-verified",
+      "observedKind": "executable-verified",
+      "status": "pass",
+      "dimensions": {
+        "width": 817,
+        "height": 581
+      },
+      "hasRenderedContent": true,
+      "screenshotPath": "artifacts/preview-audit/staggered-interactive-gallery.png",
+      "screenshotDiagnostics": null,
+      "errors": [],
+      "networkFailures": [
+        {
+          "url": "http://127.0.0.1:5173/vendor/tailwind-play.js",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/vendor/isolated-react-runtime.js",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "shimmer-light-button",
+      "targetItemId": "shimmer-light-button",
+      "name": "Shimmer Beam Action Button",
+      "category": "Visual Effects",
+      "expectedKind": "executable-verified",
+      "observedKind": "executable-verified",
+      "status": "pass",
+      "dimensions": {
+        "width": 817,
+        "height": 581
+      },
+      "hasRenderedContent": true,
+      "screenshotPath": "artifacts/preview-audit/shimmer-light-button.png",
+      "screenshotDiagnostics": null,
+      "errors": [],
+      "networkFailures": [
+        {
+          "url": "http://127.0.0.1:5173/vendor/tailwind-play.js",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/vendor/isolated-react-runtime.js",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "magnetic-button",
+      "targetItemId": "magnetic-button",
+      "name": "Magnetic Attraction Action Button",
+      "category": "Navigation & Menus",
+      "expectedKind": "executable-verified",
+      "observedKind": "executable-verified",
+      "status": "pass",
+      "dimensions": {
+        "width": 817,
+        "height": 581
+      },
+      "hasRenderedContent": true,
+      "screenshotPath": "artifacts/preview-audit/magnetic-button.png",
+      "screenshotDiagnostics": null,
+      "errors": [],
+      "networkFailures": [
+        {
+          "url": "http://127.0.0.1:5173/vendor/isolated-react-runtime.js",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/vendor/tailwind-play.js",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "bento-grid",
+      "targetItemId": "bento-grid",
+      "name": "Asymmetric Feature Bento Grid",
+      "category": "Cards & Bento",
+      "expectedKind": "executable-verified",
+      "observedKind": "executable-verified",
+      "status": "pass",
+      "dimensions": {
+        "width": 817,
+        "height": 581
+      },
+      "hasRenderedContent": true,
+      "screenshotPath": "artifacts/preview-audit/bento-grid.png",
+      "screenshotDiagnostics": null,
+      "errors": [],
+      "networkFailures": [
+        {
+          "url": "http://127.0.0.1:5173/vendor/isolated-react-runtime.js",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/vendor/tailwind-play.js",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "particles-background",
+      "targetItemId": "particles-background",
+      "name": "Interactive Constellation Canvas",
+      "category": "Shaders & Canvas",
+      "expectedKind": "executable-verified",
+      "observedKind": "executable-verified",
+      "status": "pass",
+      "dimensions": {
+        "width": 817,
+        "height": 581
+      },
+      "hasRenderedContent": true,
+      "screenshotPath": "artifacts/preview-audit/particles-background.png",
+      "screenshotDiagnostics": null,
+      "errors": [],
+      "networkFailures": [
+        {
+          "url": "http://127.0.0.1:5173/vendor/tailwind-play.js",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/vendor/isolated-react-runtime.js",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "marquee-showcase",
+      "targetItemId": "marquee-showcase",
+      "name": "Infinite Horizontal Card Marquee",
+      "category": "Typography & Motion",
+      "expectedKind": "executable-verified",
+      "observedKind": "executable-verified",
+      "status": "pass",
+      "dimensions": {
+        "width": 817,
+        "height": 581
+      },
+      "hasRenderedContent": true,
+      "screenshotPath": "artifacts/preview-audit/marquee-showcase.png",
+      "screenshotDiagnostics": null,
+      "errors": [],
+      "networkFailures": [
+        {
+          "url": "http://127.0.0.1:5173/vendor/tailwind-play.js",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/vendor/isolated-react-runtime.js",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "magicui-lens",
+      "targetItemId": "magicui-lens",
+      "name": "Interactive Lens",
+      "category": "Cards & Bento",
+      "expectedKind": "executable-verified",
+      "observedKind": "executable-verified",
+      "status": "pass",
+      "dimensions": {
+        "width": 817,
+        "height": 581
+      },
+      "hasRenderedContent": true,
+      "screenshotPath": "artifacts/preview-audit/magicui-lens.png",
+      "screenshotDiagnostics": null,
+      "errors": [],
+      "networkFailures": [
+        {
+          "url": "http://127.0.0.1:5173/vendor/tailwind-play.js",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/vendor/isolated-react-runtime.js",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "magicui-magic-card",
+      "targetItemId": "magicui-magic-card",
+      "name": "Magic Card",
+      "category": "Cards & Bento",
+      "expectedKind": "executable-verified",
+      "observedKind": "executable-verified",
+      "status": "pass",
+      "dimensions": {
+        "width": 817,
+        "height": 581
+      },
+      "hasRenderedContent": true,
+      "screenshotPath": "artifacts/preview-audit/magicui-magic-card.png",
+      "screenshotDiagnostics": null,
+      "errors": [],
+      "networkFailures": [
+        {
+          "url": "http://127.0.0.1:5173/vendor/isolated-react-runtime.js",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/vendor/tailwind-play.js",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "theme-zinc-modernist",
+      "targetItemId": "theme-zinc-modernist",
+      "name": "Zinc Modernist Theme",
+      "category": "Theme Presets",
+      "expectedKind": "executable-verified",
+      "observedKind": "executable-verified",
+      "status": "pass",
+      "dimensions": {
+        "width": 817,
+        "height": 581
+      },
+      "hasRenderedContent": true,
+      "screenshotPath": "artifacts/preview-audit/theme-zinc-modernist.png",
+      "screenshotDiagnostics": null,
+      "errors": [],
+      "networkFailures": [],
+      "notes": ""
+    },
+    {
+      "id": "theme-cyber-neon-contrast",
+      "targetItemId": "theme-cyber-neon-contrast",
+      "name": "Cyber Neon High Contrast",
+      "category": "Theme Presets",
+      "expectedKind": "executable-verified",
+      "observedKind": "executable-verified",
+      "status": "pass",
+      "dimensions": {
+        "width": 817,
+        "height": 581
+      },
+      "hasRenderedContent": true,
+      "screenshotPath": "artifacts/preview-audit/theme-cyber-neon-contrast.png",
+      "screenshotDiagnostics": null,
+      "errors": [],
+      "networkFailures": [],
+      "notes": ""
+    },
+    {
+      "id": "template-saas-platform-starter",
+      "targetItemId": "template-saas-platform-starter",
+      "name": "DevTool Platform SaaS Starter Template",
+      "category": "Full Templates",
+      "expectedKind": "template-preview",
+      "observedKind": "template-preview",
+      "status": "blueprint",
+      "dimensions": {
+        "width": 672,
+        "height": 551
+      },
+      "hasRenderedContent": true,
+      "screenshotPath": "artifacts/preview-audit/template-saas-platform-starter.png",
+      "screenshotDiagnostics": null,
+      "errors": [],
+      "networkFailures": [],
+      "notes": "Template multi-page layout wireframe and scaffolding spec verified"
+    },
+    {
+      "id": "prompt-saas-pricing-matrix",
+      "targetItemId": "prompt-saas-pricing-matrix",
+      "name": "Enterprise Multi-Tier Pricing Section Prompt",
+      "category": "AI Prompts",
+      "expectedKind": "prompt-blueprint",
+      "observedKind": "prompt-blueprint",
+      "status": "blueprint",
+      "dimensions": {
+        "width": 576,
+        "height": 482
+      },
+      "hasRenderedContent": true,
+      "screenshotPath": "artifacts/preview-audit/prompt-saas-pricing-matrix.png",
+      "screenshotDiagnostics": null,
+      "errors": [],
+      "networkFailures": [],
+      "notes": "Prompt blueprint body, metadata, and studio action verified"
+    },
+    {
+      "id": "ref-linear-dark-saas",
+      "targetItemId": "ref-linear-dark-saas",
+      "name": "Linear App Dark Aesthetic",
+      "category": "Design References",
+      "expectedKind": "design-reference",
+      "observedKind": "design-reference",
+      "status": "reference-only",
+      "dimensions": {
+        "width": 576,
+        "height": 374
+      },
+      "hasRenderedContent": true,
+      "screenshotPath": "artifacts/preview-audit/ref-linear-dark-saas.png",
+      "screenshotDiagnostics": null,
+      "errors": [],
+      "networkFailures": [],
+      "notes": "Design study reference observations and plan verified"
+    },
+    {
+      "id": "shadcn-accordion",
+      "targetItemId": "shadcn-accordion",
+      "name": "Accordion",
+      "category": "Cards & Bento",
+      "expectedKind": "source-unavailable",
+      "observedKind": "source-unavailable",
+      "status": "blueprint",
+      "dimensions": {
+        "width": 273,
+        "height": 16
+      },
+      "hasRenderedContent": true,
+      "screenshotPath": "artifacts/preview-audit/shadcn-accordion.png",
+      "screenshotDiagnostics": null,
+      "errors": [],
+      "networkFailures": [],
+      "notes": "Registry specification and CLI command verified"
+    },
+    {
+      "id": "awesome-0xurvish-animated-collection-default",
+      "targetItemId": "awesome-0xurvish-animated-collection-default",
+      "name": "Animated Collection",
+      "category": "Typography & Motion",
+      "expectedKind": "html-snapshot",
+      "observedKind": "html-snapshot",
+      "status": "pass",
+      "dimensions": {
+        "width": 753,
+        "height": 480
+      },
+      "hasRenderedContent": true,
+      "screenshotPath": "artifacts/preview-audit/awesome-0xurvish-animated-collection-default.png",
+      "screenshotDiagnostics": null,
+      "errors": [],
+      "networkFailures": [
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/0-9/0xurvish/animated-collection/default/rendered.html",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/0-9/0xurvish/animated-collection/default/rendered.html",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "awesome-0xurvish-bento-card-default",
+      "targetItemId": "awesome-0xurvish-bento-card-default",
+      "name": "Bento Card",
+      "category": "Cards & Bento",
+      "expectedKind": "html-snapshot",
+      "observedKind": "html-snapshot",
+      "status": "pass",
+      "dimensions": {
+        "width": 753,
+        "height": 480
+      },
+      "hasRenderedContent": true,
+      "screenshotPath": "artifacts/preview-audit/awesome-0xurvish-bento-card-default.png",
+      "screenshotDiagnostics": null,
+      "errors": [],
+      "networkFailures": [
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/0-9/0xurvish/bento-card/default/rendered.html",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/0-9/0xurvish/bento-card/default/rendered.html",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "awesome-0xurvish-bottom-menu-default",
+      "targetItemId": "awesome-0xurvish-bottom-menu-default",
+      "name": "Bottom Menu",
+      "category": "Navigation & Menus",
+      "expectedKind": "html-snapshot",
+      "observedKind": "html-snapshot",
+      "status": "pass",
+      "dimensions": {
+        "width": 753,
+        "height": 480
+      },
+      "hasRenderedContent": true,
+      "screenshotPath": "artifacts/preview-audit/awesome-0xurvish-bottom-menu-default.png",
+      "screenshotDiagnostics": null,
+      "errors": [],
+      "networkFailures": [
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/0-9/0xurvish/bottom-menu/default/rendered.html",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/0-9/0xurvish/bottom-menu/default/rendered.html",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "awesome-0xurvish-delete-button-default",
+      "targetItemId": "awesome-0xurvish-delete-button-default",
+      "name": "Delete Button",
+      "category": "Visual Effects",
+      "expectedKind": "html-snapshot",
+      "observedKind": "html-snapshot",
+      "status": "pass",
+      "dimensions": {
+        "width": 753,
+        "height": 480
+      },
+      "hasRenderedContent": true,
+      "screenshotPath": "artifacts/preview-audit/awesome-0xurvish-delete-button-default.png",
+      "screenshotDiagnostics": null,
+      "errors": [],
+      "networkFailures": [
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/0-9/0xurvish/delete-button/default/rendered.html",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/0-9/0xurvish/delete-button/default/rendered.html",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "awesome-isaiahbjork-reveal-text-default",
+      "targetItemId": "awesome-isaiahbjork-reveal-text-default",
+      "name": "Reveal Text",
+      "category": "Typography & Motion",
+      "expectedKind": "html-snapshot",
+      "observedKind": "html-snapshot",
+      "status": "pass",
+      "dimensions": {
+        "width": 753,
+        "height": 480
+      },
+      "hasRenderedContent": true,
+      "screenshotPath": "artifacts/preview-audit/awesome-isaiahbjork-reveal-text-default.png",
+      "screenshotDiagnostics": null,
+      "errors": [],
+      "networkFailures": [
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/i/isaiahbjork/reveal-text/default/rendered.html",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/i/isaiahbjork/reveal-text/default/rendered.html",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "awesome-muhammad-binsalman-connect-with-us-default",
+      "targetItemId": "awesome-muhammad-binsalman-connect-with-us-default",
+      "name": "Connect With Us",
+      "category": "Cards & Bento",
+      "expectedKind": "html-snapshot",
+      "observedKind": "html-snapshot",
+      "status": "pass",
+      "dimensions": {
+        "width": 753,
+        "height": 480
+      },
+      "hasRenderedContent": true,
+      "screenshotPath": "artifacts/preview-audit/awesome-muhammad-binsalman-connect-with-us-default.png",
+      "screenshotDiagnostics": null,
+      "errors": [],
+      "networkFailures": [
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/m/muhammad-binsalman/connect-with-us/default/rendered.html",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/m/muhammad-binsalman/connect-with-us/default/rendered.html",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "awesome-muhammad-binsalman-laser-focus-crypto-hero-section-default",
+      "targetItemId": "awesome-muhammad-binsalman-laser-focus-crypto-hero-section-default",
+      "name": "Laser Focus Crypto Hero Section",
+      "category": "Heroes & Landing",
+      "expectedKind": "html-snapshot",
+      "observedKind": "html-snapshot",
+      "status": "pass",
+      "dimensions": {
+        "width": 753,
+        "height": 480
+      },
+      "hasRenderedContent": true,
+      "screenshotPath": "artifacts/preview-audit/awesome-muhammad-binsalman-laser-focus-crypto-hero-section-default.png",
+      "screenshotDiagnostics": null,
+      "errors": [],
+      "networkFailures": [
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/m/muhammad-binsalman/laser-focus-crypto-hero-section/default/rendered.html",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/m/muhammad-binsalman/laser-focus-crypto-hero-section/default/rendered.html",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "awesome-reui-data-grid-table-default",
+      "targetItemId": "awesome-reui-data-grid-table-default",
+      "name": "Data Grid Table",
+      "category": "Forms & Inputs",
+      "expectedKind": "html-snapshot",
+      "observedKind": "html-snapshot",
+      "status": "pass",
+      "dimensions": {
+        "width": 753,
+        "height": 480
+      },
+      "hasRenderedContent": true,
+      "screenshotPath": "artifacts/preview-audit/awesome-reui-data-grid-table-default.png",
+      "screenshotDiagnostics": null,
+      "errors": [],
+      "networkFailures": [
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/r/reui/data-grid-table/default/rendered.html",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/r/reui/data-grid-table/default/rendered.html",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "awesome-youcefbnm-stagger-text-stagger-text-animation",
+      "targetItemId": "awesome-youcefbnm-stagger-text-stagger-text-animation",
+      "name": "Stagger Text (Stagger Text Animation)",
+      "category": "Typography & Motion",
+      "expectedKind": "html-snapshot",
+      "observedKind": "html-snapshot",
+      "status": "pass",
+      "dimensions": {
+        "width": 753,
+        "height": 480
+      },
+      "hasRenderedContent": true,
+      "screenshotPath": "artifacts/preview-audit/awesome-youcefbnm-stagger-text-stagger-text-animation.png",
+      "screenshotDiagnostics": null,
+      "errors": [],
+      "networkFailures": [
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/y/youcefbnm/stagger-text/stagger-text-animation/rendered.html",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/y/youcefbnm/stagger-text/stagger-text-animation/rendered.html",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "awesome-youcefbnm-text-stagger-hover-default",
+      "targetItemId": "awesome-youcefbnm-text-stagger-hover-default",
+      "name": "Text Stagger Hover",
+      "category": "Typography & Motion",
+      "expectedKind": "html-snapshot",
+      "observedKind": "html-snapshot",
+      "status": "pass",
+      "dimensions": {
+        "width": 753,
+        "height": 480
+      },
+      "hasRenderedContent": true,
+      "screenshotPath": "artifacts/preview-audit/awesome-youcefbnm-text-stagger-hover-default.png",
+      "screenshotDiagnostics": null,
+      "errors": [],
+      "networkFailures": [
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/y/youcefbnm/text-stagger-hover/default/rendered.html",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/y/youcefbnm/text-stagger-hover/default/rendered.html",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "awesome-youcefbnm-vertical-text-default",
+      "targetItemId": "awesome-youcefbnm-vertical-text-default",
+      "name": "Vertical Text",
+      "category": "Typography & Motion",
+      "expectedKind": "html-snapshot",
+      "observedKind": "html-snapshot",
+      "status": "pass",
+      "dimensions": {
+        "width": 753,
+        "height": 480
+      },
+      "hasRenderedContent": true,
+      "screenshotPath": "artifacts/preview-audit/awesome-youcefbnm-vertical-text-default.png",
+      "screenshotDiagnostics": null,
+      "errors": [],
+      "networkFailures": [
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/y/youcefbnm/vertical-text/default/rendered.html",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/y/youcefbnm/vertical-text/default/rendered.html",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "awesome-youcefbnm-wavy-text-block-default",
+      "targetItemId": "awesome-youcefbnm-wavy-text-block-default",
+      "name": "Wavy Text Block",
+      "category": "Typography & Motion",
+      "expectedKind": "html-snapshot",
+      "observedKind": "html-snapshot",
+      "status": "pass",
+      "dimensions": {
+        "width": 753,
+        "height": 480
+      },
+      "hasRenderedContent": true,
+      "screenshotPath": "artifacts/preview-audit/awesome-youcefbnm-wavy-text-block-default.png",
+      "screenshotDiagnostics": null,
+      "errors": [],
+      "networkFailures": [
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/y/youcefbnm/wavy-text-block/default/rendered.html",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/y/youcefbnm/wavy-text-block/default/rendered.html",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "awesome-aceternity-3d-card-effect-default",
+      "targetItemId": "awesome-aceternity-3d-card-effect-default",
+      "name": "3d Card Effect",
+      "category": "3D & WebGL",
+      "expectedKind": "html-snapshot",
+      "observedKind": "html-snapshot",
+      "status": "pass",
+      "dimensions": {
+        "width": 753,
+        "height": 480
+      },
+      "hasRenderedContent": true,
+      "screenshotPath": "artifacts/preview-audit/awesome-aceternity-3d-card-effect-default.png",
+      "screenshotDiagnostics": null,
+      "errors": [],
+      "networkFailures": [
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/a/aceternity/3d-card-effect/default/rendered.html",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/a/aceternity/3d-card-effect/default/rendered.html",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "awesome-aceternity-3d-marquee-default",
+      "targetItemId": "awesome-aceternity-3d-marquee-default",
+      "name": "3d Marquee",
+      "category": "3D & WebGL",
+      "expectedKind": "html-snapshot",
+      "observedKind": "html-snapshot",
+      "status": "pass",
+      "dimensions": {
+        "width": 753,
+        "height": 480
+      },
+      "hasRenderedContent": true,
+      "screenshotPath": "artifacts/preview-audit/awesome-aceternity-3d-marquee-default.png",
+      "screenshotDiagnostics": null,
+      "errors": [],
+      "networkFailures": [
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/a/aceternity/3d-marquee/default/rendered.html",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/a/aceternity/3d-marquee/default/rendered.html",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "awesome-40973894-siri-wave-default",
+      "targetItemId": "awesome-40973894-siri-wave-default",
+      "name": "Siri Wave",
+      "category": "Shaders & Canvas",
+      "expectedKind": "html-snapshot",
+      "observedKind": "html-snapshot",
+      "status": "pass",
+      "dimensions": {
+        "width": 753,
+        "height": 480
+      },
+      "hasRenderedContent": true,
+      "screenshotPath": "artifacts/preview-audit/awesome-40973894-siri-wave-default.png",
+      "screenshotDiagnostics": null,
+      "errors": [],
+      "networkFailures": [
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/0-9/40973894/siri-wave/default/rendered.html",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/0-9/40973894/siri-wave/default/rendered.html",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "awesome-40973894-siri-wave-fluid-dots",
+      "targetItemId": "awesome-40973894-siri-wave-fluid-dots",
+      "name": "Siri Wave (Fluid Dots)",
+      "category": "Shaders & Canvas",
+      "expectedKind": "html-snapshot",
+      "observedKind": "html-snapshot",
+      "status": "pass",
+      "dimensions": {
+        "width": 753,
+        "height": 480
+      },
+      "hasRenderedContent": true,
+      "screenshotPath": "artifacts/preview-audit/awesome-40973894-siri-wave-fluid-dots.png",
+      "screenshotDiagnostics": null,
+      "errors": [],
+      "networkFailures": [
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/0-9/40973894/siri-wave/fluid-dots/rendered.html",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/0-9/40973894/siri-wave/fluid-dots/rendered.html",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "awesome-0xurvish-day-picker-default",
+      "targetItemId": "awesome-0xurvish-day-picker-default",
+      "name": "Day Picker",
+      "category": "Forms & Inputs",
+      "expectedKind": "html-snapshot",
+      "observedKind": "html-snapshot",
+      "status": "pass",
+      "dimensions": {
+        "width": 753,
+        "height": 480
+      },
+      "hasRenderedContent": true,
+      "screenshotPath": "artifacts/preview-audit/awesome-0xurvish-day-picker-default.png",
+      "screenshotDiagnostics": null,
+      "errors": [],
+      "networkFailures": [
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/0-9/0xurvish/day-picker/default/rendered.html",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/0-9/0xurvish/day-picker/default/rendered.html",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "awesome-0xurvish-morphing-input-default",
+      "targetItemId": "awesome-0xurvish-morphing-input-default",
+      "name": "Morphing Input",
+      "category": "Forms & Inputs",
+      "expectedKind": "html-snapshot",
+      "observedKind": "html-snapshot",
+      "status": "pass",
+      "dimensions": {
+        "width": 753,
+        "height": 480
+      },
+      "hasRenderedContent": true,
+      "screenshotPath": "artifacts/preview-audit/awesome-0xurvish-morphing-input-default.png",
+      "screenshotDiagnostics": null,
+      "errors": [],
+      "networkFailures": [
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/0-9/0xurvish/morphing-input/default/rendered.html",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/0-9/0xurvish/morphing-input/default/rendered.html",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "awesome-abhinavcdev-fin-tech-landing-page-default",
+      "targetItemId": "awesome-abhinavcdev-fin-tech-landing-page-default",
+      "name": "Fin Tech Landing Page",
+      "expectedKind": "heroes & Landing",
+      "observedKind": "html-snapshot",
+      "status": "pass",
+      "dimensions": {
+        "width": 753,
+        "height": 480
+      },
+      "hasRenderedContent": true,
+      "screenshotPath": "artifacts/preview-audit/awesome-abhinavcdev-fin-tech-landing-page-default.png",
+      "screenshotDiagnostics": null,
+      "errors": [],
+      "networkFailures": [
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/a/abhinavcdev/fin-tech-landing-page/default/rendered.html",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/a/abhinavcdev/fin-tech-landing-page/default/rendered.html",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "awesome-abuhuraira-hero-grid-section-default",
+      "targetItemId": "awesome-abuhuraira-hero-grid-section-default",
+      "name": "Hero Grid Section",
+      "expectedKind": "Heroes & Landing",
+      "observedKind": "html-snapshot",
+      "status": "pass",
+      "dimensions": {
+        "width": 753,
+        "height": 480
+      },
+      "hasRenderedContent": true,
+      "screenshotPath": "artifacts/preview-audit/awesome-abuhuraira-hero-grid-section-default.png",
+      "screenshotDiagnostics": null,
+      "errors": [],
+      "networkFailures": [
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/a/abuhuraira/hero-grid-section/default/rendered.html",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/a/abuhuraira/hero-grid-section/default/rendered.html",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "awesome-aayush-duhan-cascade-text-default",
+      "targetItemId": "awesome-aayush-duhan-cascade-text-default",
+      "name": "Cascade Text",
+      "category": "Typography & Motion",
+      "expectedKind": "html-snapshot",
+      "observedKind": "html-snapshot",
+      "status": "pass",
+      "dimensions": {
+        "width": 753,
+        "height": 480
+      },
+      "hasRenderedContent": true,
+      "screenshotPath": "artifacts/preview-audit/awesome-aayush-duhan-cascade-text-default.png",
+      "screenshotDiagnostics": null,
+      "errors": [],
+      "networkFailures": [
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/a/aayush-duhan/cascade-text/default/rendered.html",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/a/aayush-duhan/cascade-text/default/rendered.html",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "awesome-0xurvish-discrete-tab-default",
+      "targetItemId": "awesome-0xurvish-discrete-tab-default",
+      "name": "Discrete Tab",
+      "category": "Navigation & Menus",
+      "expectedKind": "html-snapshot",
+      "observedKind": "html-snapshot",
+      "status": "pass",
+      "dimensions": {
+        "width": 753,
+        "height": 480
+      },
+      "hasRenderedContent": true,
+      "screenshotPath": "artifacts/preview-audit/awesome-0xurvish-discrete-tab-default.png",
+      "screenshotDiagnostics": null,
+      "errors": [],
+      "networkFailures": [
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/0-9/0xurvish/discrete-tab/default/rendered.html",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/0-9/0xurvish/discrete-tab/default/rendered.html",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "awesome-0xurvish-discover-button-default",
+      "targetItemId": "awesome-0xurvish-discover-button-default",
+      "name": "Discover Button",
+      "category": "Visual Effects",
+      "expectedKind": "html-snapshot",
+      "observedKind": "html-snapshot",
+      "status": "pass",
+      "dimensions": {
+        "width": 753,
+        "height": 480
+      },
+      "hasRenderedContent": true,
+      "screenshotPath": "artifacts/preview-audit/awesome-0xurvish-discover-button-default.png",
+      "screenshotDiagnostics": null,
+      "errors": [],
+      "networkFailures": [
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/0-9/0xurvish/discover-button/default/rendered.html",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/0-9/0xurvish/discover-button/default/rendered.html",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "awesome-bhomikproductivitylab-sign-in-page-default",
+      "targetItemId": "awesome-bhomikproductivitylab-sign-in-page-default",
+      "name": "Sign In Page",
+      "category": "Full Templates",
+      "expectedKind": "html-snapshot",
+      "observedKind": "html-snapshot",
+      "status": "pass",
+      "dimensions": {
+        "width": 753,
+        "height": 480
+      },
+      "hasRenderedContent": true,
+      "screenshotPath": "artifacts/preview-audit/awesome-bhomikproductivitylab-sign-in-page-default.png",
+      "screenshotDiagnostics": null,
+      "errors": [],
+      "networkFailures": [
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/b/bhomikproductivitylab/sign-in-page/default/rendered.html",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/b/bhomikproductivitylab/sign-in-page/default/rendered.html",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "awesome-bhomikproductivitylab-sign-up-page-default",
+      "targetItemId": "awesome-bhomikproductivitylab-sign-up-page-default",
+      "name": "Sign Up Page",
+      "category": "Full Templates",
+      "expectedKind": "html-snapshot",
+      "observedKind": "html-snapshot",
+      "status": "pass",
+      "dimensions": {
+        "width": 753,
+        "height": 480
+      },
+      "hasRenderedContent": true,
+      "screenshotPath": "artifacts/preview-audit/awesome-bhomikproductivitylab-sign-up-page-default.png",
+      "screenshotDiagnostics": null,
+      "errors": [],
+      "networkFailures": [
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/b/bhomikproductivitylab/sign-up-page/default/rendered.html",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/b/bhomikproductivitylab/sign-up-page/default/rendered.html",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "awesome-airbnb-pie-chart-default",
+      "targetItemId": "awesome-airbnb-pie-chart-default",
+      "name": "Pie Chart",
+      "category": "Cards & Bento",
+      "expectedKind": "html-snapshot",
+      "observedKind": "html-snapshot",
+      "status": "pass",
+      "dimensions": {
+        "width": 753,
+        "height": 480
+      },
+      "hasRenderedContent": true,
+      "screenshotPath": "artifacts/preview-audit/awesome-airbnb-pie-chart-default.png",
+      "screenshotDiagnostics": null,
+      "errors": [],
+      "networkFailures": [
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/a/airbnb/pie-chart/default/rendered.html",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/a/airbnb/pie-chart/default/rendered.html",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "awesome-airbnb-radar-chart-default",
+      "targetItemId": "awesome-airbnb-radar-chart-default",
+      "name": "Radar Chart",
+      "category": "Cards & Bento",
+      "expectedKind": "html-snapshot",
+      "observedKind": "html-snapshot",
+      "status": "pass",
+      "dimensions": {
+        "width": 753,
+        "height": 480
+      },
+      "hasRenderedContent": true,
+      "screenshotPath": "artifacts/preview-audit/awesome-airbnb-radar-chart-default.png",
+      "screenshotDiagnostics": null,
+      "errors": [],
+      "networkFailures": [
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/a/airbnb/radar-chart/default/rendered.html",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/a/airbnb/radar-chart/default/rendered.html",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "awesome-airbnb-patterns-default",
+      "targetItemId": "awesome-airbnb-patterns-default",
+      "name": "Patterns",
+      "category": "Cards & Bento",
+      "expectedKind": "html-snapshot",
+      "observedKind": "html-snapshot",
+      "status": "pass",
+      "dimensions": {
+        "width": 753,
+        "height": 480
+      },
+      "hasRenderedContent": true,
+      "screenshotPath": "artifacts/preview-audit/awesome-airbnb-patterns-default.png",
+      "screenshotDiagnostics": null,
+      "errors": [],
+      "networkFailures": [
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/a/airbnb/patterns/default/rendered.html",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/a/airbnb/patterns/default/rendered.html",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "awesome-dhmnpunit-mac-os-menu-bar-default",
+      "targetItemId": "awesome-dhmnpunit-mac-os-menu-bar-default",
+      "name": "Mac Os Menu Bar",
+      "category": "Navigation & Menus",
+      "expectedKind": "html-snapshot",
+      "observedKind": "html-snapshot",
+      "status": "pass",
+      "dimensions": {
+        "width": 753,
+        "height": 480
+      },
+      "hasRenderedContent": true,
+      "screenshotPath": "artifacts/preview-audit/awesome-dhmnpunit-mac-os-menu-bar-default.png",
+      "screenshotDiagnostics": null,
+      "errors": [],
+      "networkFailures": [
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/d/dhmnpunit/mac-os-menu-bar/default/rendered.html",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/d/dhmnpunit/mac-os-menu-bar/default/rendered.html",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "awesome-ruixenui-text-reveal-faqs-default",
+      "targetItemId": "awesome-ruixenui-text-reveal-faqs-default",
+      "name": "Text Reveal Faqs",
+      "category": "Typography & Motion",
+      "expectedKind": "html-snapshot",
+      "observedKind": "html-snapshot",
+      "status": "pass",
+      "dimensions": {
+        "width": 753,
+        "height": 480
+      },
+      "hasRenderedContent": true,
+      "screenshotPath": "artifacts/preview-audit/awesome-ruixenui-text-reveal-faqs-default.png",
+      "screenshotDiagnostics": null,
+      "errors": [
+        "Failed to read the 'cookie' property from 'Document': The document is sandboxed and lacks the 'allow-same-origin' flag.",
+        "Failed to read the 'cookie' property from 'Document': The document is sandboxed and lacks the 'allow-same-origin' flag.",
+        "Access to font at 'http://127.0.0.1:5173/_next/static/media/1005bd875009f524.p.woff2' from origin 'null' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://127.0.0.1:5173/_next/static/media/12dfa0104b317c6e-s.p.woff2' from origin 'null' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://127.0.0.1:5173/_next/static/media/4c9022eda93cbc91-s.p.woff2' from origin 'null' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://127.0.0.1:5173/_next/static/media/27834908180db20f-s.p.woff2' from origin 'null' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://127.0.0.1:5173/_next/static/media/4fafff4a0a9a6a75-s.p.woff2' from origin 'null' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://127.0.0.1:5173/_next/static/media/72309d8f79298cda.p.woff2' from origin 'null' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://127.0.0.1:5173/_next/static/media/78fec81b34c4a365.p.woff2' from origin 'null' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://127.0.0.1:5173/_next/static/media/7e0029dff07248dd-s.p.woff2' from origin 'null' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://127.0.0.1:5173/_next/static/media/d62eeeefdf00efec-s.p.woff2' from origin 'null' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://127.0.0.1:5173/_next/static/media/de0e48ef74e52fe6-s.p.woff2' from origin 'null' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://127.0.0.1:5173/_next/static/media/b269f2652091576b.p.woff2' from origin 'null' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://127.0.0.1:5173/_next/static/media/eda1bea3c0704595.p.woff2' from origin 'null' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://127.0.0.1:5173/_next/static/media/f361b893d795d088.p.woff2' from origin 'null' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: net::ERR_NAME_NOT_RESOLVED"
+      ],
+      "networkFailures": [
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/r/ruixenui/text-reveal-faqs/default/rendered.html",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/r/ruixenui/text-reveal-faqs/default/rendered.html",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/_next/static/css/9da37e8c0112f621.css",
+          "error": "net::ERR_BLOCKED_BY_ORB"
+        },
+        {
+          "url": "http://127.0.0.1:5173/_next/static/css/8cad8af4167edf0c.css",
+          "error": "net::ERR_BLOCKED_BY_ORB"
+        },
+        {
+          "url": "http://127.0.0.1:5173/_next/static/css/bbb18f21d09c62dc.css",
+          "error": "net::ERR_BLOCKED_BY_ORB"
+        },
+        {
+          "url": "http://127.0.0.1:5173/_next/static/media/1005bd875009f524.p.woff2",
+          "error": "net::ERR_FAILED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/_next/static/media/12dfa0104b317c6e-s.p.woff2",
+          "error": "net::ERR_FAILED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/_next/static/media/4c9022eda93cbc91-s.p.woff2",
+          "error": "net::ERR_FAILED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/_next/static/media/27834908180db20f-s.p.woff2",
+          "error": "net::ERR_FAILED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/_next/static/media/4fafff4a0a9a6a75-s.p.woff2",
+          "error": "net::ERR_FAILED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/_next/static/media/72309d8f79298cda.p.woff2",
+          "error": "net::ERR_FAILED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/_next/static/media/78fec81b34c4a365.p.woff2",
+          "error": "net::ERR_FAILED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/_next/static/media/7e0029dff07248dd-s.p.woff2",
+          "error": "net::ERR_FAILED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/_next/static/media/d62eeeefdf00efec-s.p.woff2",
+          "error": "net::ERR_FAILED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/_next/static/media/de0e48ef74e52fe6-s.p.woff2",
+          "error": "net::ERR_FAILED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/_next/static/media/b269f2652091576b.p.woff2",
+          "error": "net::ERR_FAILED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/_next/static/media/eda1bea3c0704595.p.woff2",
+          "error": "net::ERR_FAILED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/_next/static/media/f361b893d795d088.p.woff2",
+          "error": "net::ERR_FAILED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/_next/static/chunks/webpack-31699d8112cb61b9.js",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/_next/static/chunks/478f1f74-998c95e64b731fed.js",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/_next/static/chunks/64058-dff5bfbedf4d7d7f.js",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/_next/static/chunks/main-app-3942c6518210f6be.js",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/_next/static/chunks/0206212e-87dacf40ffdde3f4.js",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://127.0.0.1:5173/_next/static/chunks/3dbc7fab-ddbe4a9ecc46a20d.js",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://clerk.builderstudio/npm/@clerk/clerk-js@5/dist/clerk.browser.js",
+          "error": "net::ERR_NAME_NOT_RESOLVED"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "awesome-isaiahbjork-reveal-text-default-fallback",
+      "targetItemId": "awesome-isaiahbjork-reveal-text-default",
+      "name": "Reveal Text (Simulated HTML 404 Screenshot Fallback)",
+      "category": "Typography & Motion",
+      "expectedKind": "screenshot-reference",
+      "observedKind": "screenshot-reference",
+      "status": "pass",
+      "dimensions": {
+        "naturalWidth": 992,
+        "naturalHeight": 944
+      },
+      "hasRenderedContent": true,
+      "screenshotPath": "artifacts/preview-audit/awesome-isaiahbjork-reveal-text-default-fallback.png",
+      "screenshotDiagnostics": {
+        "screenshotFileExists": true,
+        "browserImageLoaded": true,
+        "imageDimensionsNonZero": true,
+        "dimensions": {
+          "naturalWidth": 992,
+          "naturalHeight": 944
+        },
+        "urlMatchesItem": true,
+        "altMatchesItem": true,
+        "visualReferenceComparisonCompleted": true
+      },
+      "errors": [],
+      "networkFailures": [],
+      "notes": "Screenshot fallback verified: 992x944 with fallback banner"
+    },
+    {
+      "id": "awesome-0xurvish-animated-collection-default-screenshot-tab",
+      "targetItemId": "awesome-0xurvish-animated-collection-default",
+      "name": "Animated Collection (Dedicated Screenshot Tab Inspection)",
+      "category": "Typography & Motion",
+      "expectedKind": "screenshot-reference",
+      "observedKind": "screenshot-reference",
+      "status": "pass",
+      "dimensions": {
+        "naturalWidth": 992,
+        "naturalHeight": 944
+      },
+      "hasRenderedContent": true,
+      "screenshotPath": "artifacts/preview-audit/awesome-0xurvish-animated-collection-default-screenshot-tab.png",
+      "screenshotDiagnostics": {
+        "screenshotFileExists": true,
+        "browserImageLoaded": true,
+        "imageDimensionsNonZero": true,
+        "dimensions": {
+          "naturalWidth": 992,
+          "naturalHeight": 944
+        },
+        "urlMatchesItem": true,
+        "altMatchesItem": true,
+        "visualReferenceComparisonCompleted": true
+      },
+      "errors": [],
+      "networkFailures": [],
+      "notes": "Dedicated Screenshot Inspection tab verified: 992x944"
+    },
+    {
+      "id": "awesome-0xurvish-bucket-default",
+      "targetItemId": "awesome-0xurvish-bucket-default",
+      "name": "Bucket (0-Byte Corrupt Upstream Artifacts)",
+      "category": "Cards & Bento",
+      "expectedKind": "source-unavailable",
+      "observedKind": "source-unavailable",
+      "status": "unavailable",
+      "dimensions": {
+        "width": 0,
+        "height": 0
+      },
+      "hasRenderedContent": true,
+      "screenshotPath": "artifacts/preview-audit/awesome-0xurvish-bucket-default.png",
+      "screenshotDiagnostics": null,
+      "errors": [],
+      "networkFailures": [
+        {
+          "url": "http://127.0.0.1:5173/awesome-components/0-9/0xurvish/bucket/default/rendered.html",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "notes": "Corrupt 0-byte upstream assets cleanly handled by displaying Component Blueprint"
+    },
+    {
+      "id": "non-existent-test-item",
+      "targetItemId": "non-existent-test-item",
+      "name": "Non-existent Edge Item",
+      "category": "Visual Effects",
+      "expectedKind": "source-unavailable",
+      "observedKind": "source-unavailable",
+      "status": "unavailable",
+      "dimensions": {
+        "width": 0,
+        "height": 0
+      },
+      "hasRenderedContent": false,
+      "screenshotPath": "artifacts/preview-audit/non-existent-test-item.png",
+      "screenshotDiagnostics": null,
+      "errors": [],
+      "networkFailures": [],
+      "notes": "Gracefully handled non-existent item; modal correctly remained unmounted"
+    }
+  ]
+}

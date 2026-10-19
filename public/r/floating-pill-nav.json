@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "name": "floating-pill-nav",
+  "type": "registry:ui",
+  "dependencies": [
+    "framer-motion",
+    "lucide-react"
+  ],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "ui/floating-pill-nav.tsx",
+      "content": "import React, { useState } from \"react\"\nimport { motion } from \"framer-motion\"\nimport { Layers, Sparkles, Terminal, Code2, Database } from \"lucide-react\"\n\ninterface NavItem {\n  id: string\n  label: string\n  icon: React.ReactNode\n}\n\nexport const FloatingPillNav: React.FC = () => {\n  const items: NavItem[] = [\n    { id: \"all\", label: \"Registry\", icon: <Layers className=\"w-4 h-4\" /> },\n    { id: \"3d\", label: \"3D & Shaders\", icon: <Sparkles className=\"w-4 h-4\" /> },\n    { id: \"code\", label: \"Inspect\", icon: <Code2 className=\"w-4 h-4\" /> },\n    { id: \"cli\", label: \"CLI & MCP\", icon: <Terminal className=\"w-4 h-4\" /> },\n    { id: \"data\", label: \"Local DB\", icon: <Database className=\"w-4 h-4\" /> },\n  ]\n\n  const [active, setActive] = useState(\"all\")\n\n  return (\n    <div className=\"w-full flex items-center justify-center p-8 bg-slate-950 border border-slate-800 rounded-xl\">\n      <nav className=\"relative flex items-center gap-1 p-1.5 rounded-full bg-slate-900/90 border border-slate-800 backdrop-blur-xl shadow-2xl\">\n        {items.map((item) => {\n          const isActive = active === item.id\n          return (\n            <button\n              key={item.id}\n              onClick={() => setActive(item.id)}\n              className={`relative px-4 py-2 rounded-full text-xs font-medium flex items-center gap-2 transition-colors duration-200 z-10 ${\n                isActive ? \"text-cyan-300 font-semibold\" : \"text-slate-400 hover:text-slate-200\"\n              }`}\n            >\n              {item.icon}\n              <span>{item.label}</span>\n              {isActive && (\n                <motion.div\n                  layoutId=\"active-pill-bubble\"\n                  transition={{ type: \"spring\", stiffness: 380, damping: 30 }}\n                  className=\"absolute inset-0 bg-slate-800/90 border border-cyan-500/30 rounded-full shadow-lg shadow-cyan-500/10 -z-10\"\n                />\n              )}\n            </button>\n          )\n        })}\n      </nav>\n    </div>\n  )\n}\n",
+      "type": "registry:ui"
+    }
+  ]
+}

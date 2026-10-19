@@ -1,0 +1,101 @@
+[
+  {
+    "name": "floating-sphere",
+    "type": "registry:ui",
+    "dependencies": [
+      "three",
+      "@types/three"
+    ]
+  },
+  {
+    "name": "aurora-shader",
+    "type": "registry:ui",
+    "dependencies": []
+  },
+  {
+    "name": "interactive-card",
+    "type": "registry:ui",
+    "dependencies": [
+      "framer-motion"
+    ]
+  },
+  {
+    "name": "kinetic-hero",
+    "type": "registry:ui",
+    "dependencies": [
+      "framer-motion",
+      "clsx",
+      "tailwind-merge"
+    ]
+  },
+  {
+    "name": "blur-reveal-text",
+    "type": "registry:ui",
+    "dependencies": [
+      "framer-motion"
+    ]
+  },
+  {
+    "name": "floating-pill-nav",
+    "type": "registry:ui",
+    "dependencies": [
+      "framer-motion",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "staggered-gallery",
+    "type": "registry:ui",
+    "dependencies": [
+      "framer-motion"
+    ]
+  },
+  {
+    "name": "shimmer-button",
+    "type": "registry:ui",
+    "dependencies": [
+      "framer-motion"
+    ]
+  },
+  {
+    "name": "lens",
+    "type": "registry:ui",
+    "dependencies": [
+      "framer-motion"
+    ]
+  },
+  {
+    "name": "magic-card",
+    "type": "registry:ui",
+    "dependencies": [
+      "framer-motion"
+    ]
+  },
+  {
+    "name": "magnetic-button",
+    "type": "registry:ui",
+    "dependencies": [
+      "framer-motion"
+    ]
+  },
+  {
+    "name": "bento-grid",
+    "type": "registry:ui",
+    "dependencies": [
+      "framer-motion",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "particles-background",
+    "type": "registry:ui",
+    "dependencies": []
+  },
+  {
+    "name": "marquee-showcase",
+    "type": "registry:ui",
+    "dependencies": [
+      "framer-motion"
+    ]
+  }
+]

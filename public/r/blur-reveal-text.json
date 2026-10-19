@@ -1,0 +1,16 @@
+{
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "name": "blur-reveal-text",
+  "type": "registry:ui",
+  "dependencies": [
+    "framer-motion"
+  ],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "ui/blur-reveal-text.tsx",
+      "content": "import React from \"react\"\nimport { motion } from \"framer-motion\"\n\ninterface BlurRevealTextProps {\n  text?: string\n  delay?: number\n}\n\nexport const BlurRevealText: React.FC<BlurRevealTextProps> = ({\n  text = \"Typography in Motion — Engineered for Impact\",\n  delay = 0.05,\n}) => {\n  const words = text.split(\" \")\n\n  return (\n    <div className=\"w-full p-8 rounded-xl bg-slate-950 border border-slate-800 text-center flex flex-col items-center justify-center min-h-[180px]\">\n      <h2 className=\"text-2xl md:text-4xl font-extrabold text-white tracking-tight flex flex-wrap justify-center gap-x-2 gap-y-1\">\n        {words.map((word, index) => (\n          <motion.span\n            key={index}\n            initial={{ opacity: 0, filter: \"blur(12px)\", y: 10 }}\n            animate={{ opacity: 1, filter: \"blur(0px)\", y: 0 }}\n            transition={{\n              duration: 0.8,\n              delay: index * delay,\n              ease: [0.2, 0.65, 0.3, 0.9],\n            }}\n            className=\"inline-block\"\n          >\n            {word}\n          </motion.span>\n        ))}\n      </h2>\n      <p className=\"text-xs text-slate-500 font-mono mt-4\">\n        Smooth CSS Filter Blur-In via Framer Motion\n      </p>\n    </div>\n  )\n}\n",
+      "type": "registry:ui"
+    }
+  ]
+}

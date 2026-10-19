@@ -1,0 +1,49 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Diagnostic and testing artifacts
+artifacts/
+test-install/
+extracted_stitch_design/
+exports/
+release/
+staging/
+
+# Node dependencies
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.production
+.env.development
+.env.local
+
+# Temporary caches
+.cache/
+
+# Community Assets: Exclude upstream git metadata if cloned locally
+community-assets/.git/
+community-assets/generated-components/

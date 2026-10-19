@@ -1,0 +1,198 @@
+@import "tailwindcss";
+
+@theme {
+  --color-surface: #121214;
+  --color-surface-dim: #09090b;
+  --color-surface-bright: #27272a;
+  --color-surface-container-lowest: #050506;
+  --color-surface-container-low: #0e0e10;
+  --color-surface-container: #121214;
+  --color-surface-container-high: #18181b;
+  --color-surface-container-highest: #202024;
+
+  --color-surface-base: #09090b;
+  --color-surface-subtle: #121214;
+  --color-surface-raised: #18181b;
+
+  --color-on-surface: #f4f4f5;
+  --color-on-surface-variant: #a1a1aa;
+  --color-inverse-surface: #f4f4f5;
+  --color-inverse-on-surface: #18181b;
+
+  --color-border-subtle: #27272a;
+  --color-border-glass: rgba(255, 255, 255, 0.08);
+
+  --color-primary: #ffffff;
+  --color-primary-container: #27272a;
+  --color-on-primary-container: #ffffff;
+  --color-on-primary: #09090b;
+  --color-primary-fixed: #f4f4f5;
+  --color-primary-fixed-dim: #e4e4e7;
+
+  --color-secondary: #a1a1aa;
+  --color-secondary-container: #27272a;
+  --color-on-secondary-container: #f4f4f5;
+  --color-on-secondary: #09090b;
+  --color-secondary-fixed: #e4e4e7;
+  --color-secondary-fixed-dim: #d4d4d8;
+
+  --color-accent-violet-deep: #6366f1;
+  --color-accent-violet-glow: rgba(99, 102, 241, 0.15);
+  --color-accent-blue-glow: rgba(59, 130, 246, 0.15);
+
+  --color-terminal-amber: #f59e0b;
+  --color-terminal-emerald: #10b981;
+  --color-terminal-rose: #f43f5e;
+
+  --color-text-primary: #f4f4f5;
+  --color-text-muted: #a1a1aa;
+
+  --font-geist: "Geist", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-inter: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+@layer base {
+  :root {
+    --background: #09090b;
+    --foreground: #f4f4f5;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #09090b;
+    color: #f4f4f5;
+    font-family: var(--font-inter);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Syntactic Void Typography Utilities */
+.font-display-hero {
+  font-family: var(--font-geist);
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+}
+
+.font-headline-lg {
+  font-family: var(--font-geist);
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.font-headline-md {
+  font-family: var(--font-geist);
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 500;
+  letter-spacing: -0.015em;
+}
+
+.font-headline-sm {
+  font-family: var(--font-geist);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+.font-body-lg {
+  font-family: var(--font-inter);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: -0.005em;
+}
+
+.font-body-md {
+  font-family: var(--font-inter);
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+
+.font-body-sm {
+  font-family: var(--font-inter);
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+
+.font-code-block {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+
+.font-code-inline {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
+  letter-spacing: 0em;
+}
+
+.font-badge-label {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  line-height: 14px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+}
+
+.font-metric-label {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  line-height: 12px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+}
+
+/* Background Stage Patterns */
+.bg-dot-matrix {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.08) 1px, transparent 1px);
+  background-size: 16px 16px;
+}
+
+.bg-dot-matrix-fine {
+  background-image: radial-gradient(rgba(208, 188, 255, 0.15) 1px, transparent 1px);
+  background-size: 14px 14px;
+}
+
+.border-glass {
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+.card-halo-hover:hover {
+  border-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.5);
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #23293D;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #373940;
+}

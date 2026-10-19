@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: ElementraUI Documentation
+    url: https://github.com/elementraui/elementraui/tree/main/docs
+    about: Read architectural guides, preview sandboxing docs, and API references.
+  - name: Security Vulnerability Reporting
+    url: https://github.com/elementraui/elementraui/security/policy
+    about: Please report security vulnerabilities privately according to SECURITY.md.
+  - name: ElementraUI AI Skill
+    url: https://github.com/elementraui/elementraui-skill
+    about: Looking for the AI pair-programming skill for Cursor, Windsurf, or Claude Code?

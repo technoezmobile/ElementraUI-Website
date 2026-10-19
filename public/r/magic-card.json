@@ -1,0 +1,16 @@
+{
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "name": "magic-card",
+  "type": "registry:ui",
+  "dependencies": [
+    "framer-motion"
+  ],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "ui/magic-card.tsx",
+      "content": "import React, { useCallback, useRef } from \"react\"\nimport { motion, useMotionTemplate, useMotionValue, useSpring } from \"framer-motion\"\n\nexport interface MagicCardProps {\n  children?: React.ReactNode\n  className?: string\n  gradientSize?: number\n  gradientColor?: string\n  gradientOpacity?: number\n  gradientFrom?: string\n  gradientTo?: string\n}\n\nexport const MagicCard: React.FC<MagicCardProps> = ({\n  children,\n  className = \"\",\n  gradientSize = 250,\n  gradientColor = \"rgba(56, 189, 248, 0.12)\",\n  gradientOpacity = 0.8,\n  gradientFrom = \"#38bdf8\",\n  gradientTo = \"#818cf8\",\n}) => {\n  const cardRef = useRef<HTMLDivElement>(null)\n\n  const mouseX = useMotionValue(-gradientSize)\n  const mouseY = useMotionValue(-gradientSize)\n\n  const springConfig = { damping: 25, stiffness: 200 }\n  const smoothMouseX = useSpring(mouseX, springConfig)\n  const smoothMouseY = useSpring(mouseY, springConfig)\n\n  const handlePointerMove = useCallback(\n    (e: React.PointerEvent<HTMLDivElement>) => {\n      const rect = cardRef.current?.getBoundingClientRect()\n      if (!rect) return\n      mouseX.set(e.clientX - rect.left)\n      mouseY.set(e.clientY - rect.top)\n    },\n    [mouseX, mouseY]\n  )\n\n  const handlePointerLeave = useCallback(() => {\n    mouseX.set(-gradientSize)\n    mouseY.set(-gradientSize)\n  }, [mouseX, mouseY, gradientSize])\n\n  const borderGradient = useMotionTemplate`radial-gradient(${gradientSize}px circle at ${smoothMouseX}px ${smoothMouseY}px, ${gradientFrom}, ${gradientTo}, transparent 100%)`\n  const innerSpotlight = useMotionTemplate`radial-gradient(${gradientSize}px circle at ${smoothMouseX}px ${smoothMouseY}px, ${gradientColor}, transparent 100%)`\n\n  return (\n    <div\n      ref={cardRef}\n      onPointerMove={handlePointerMove}\n      onPointerLeave={handlePointerLeave}\n      className={`group relative overflow-hidden rounded-2xl p-[1px] bg-slate-800/80 transition-all duration-300 ${className}`}\n    >\n      <motion.div\n        className=\"pointer-events-none absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10\"\n        style={{\n          background: borderGradient,\n        }}\n      />\n      <div className=\"relative rounded-[15px] bg-slate-950 p-6 h-full z-20 overflow-hidden\">\n        <motion.div\n          className=\"pointer-events-none absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-0\"\n          style={{\n            background: innerSpotlight,\n            opacity: gradientOpacity,\n          }}\n        />\n        <div className=\"relative z-10\">{children}</div>\n      </div>\n    </div>\n  )\n}\n",
+      "type": "registry:ui"
+    }
+  ]
+}

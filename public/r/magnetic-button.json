@@ -1,0 +1,16 @@
+{
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "name": "magnetic-button",
+  "type": "registry:ui",
+  "dependencies": [
+    "framer-motion"
+  ],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "ui/magnetic-button.tsx",
+      "content": "import React, { useRef } from \"react\"\nimport { motion, useSpring } from \"framer-motion\"\n\nexport interface MagneticButtonProps {\n  children?: React.ReactNode\n  strength?: number\n  className?: string\n  onClick?: () => void\n}\n\nexport const MagneticButton: React.FC<MagneticButtonProps> = ({\n  children = \"Explore Ecosystem\",\n  strength = 35,\n  className = \"\",\n  onClick,\n}) => {\n  const buttonRef = useRef<HTMLButtonElement>(null)\n\n  const springConfig = { damping: 15, stiffness: 150, mass: 0.1 }\n  const x = useSpring(0, springConfig)\n  const y = useSpring(0, springConfig)\n\n  const handleMouseMove = (e: React.MouseEvent<HTMLButtonElement>) => {\n    const rect = buttonRef.current?.getBoundingClientRect()\n    if (!rect) return\n    const centerX = rect.left + rect.width / 2\n    const centerY = rect.top + rect.height / 2\n    const distanceX = (e.clientX - centerX) / (rect.width / 2)\n    const distanceY = (e.clientY - centerY) / (rect.height / 2)\n\n    x.set(distanceX * strength)\n    y.set(distanceY * strength)\n  }\n\n  const handleMouseLeave = () => {\n    x.set(0)\n    y.set(0)\n  }\n\n  return (\n    <motion.button\n      ref={buttonRef}\n      onMouseMove={handleMouseMove}\n      onMouseLeave={handleMouseLeave}\n      onClick={onClick}\n      style={{ x, y }}\n      whileTap={{ scale: 0.95 }}\n      className={`relative px-7 py-3 rounded-xl font-semibold text-xs tracking-wide uppercase text-white bg-slate-900 border border-cyan-500/40 shadow-lg shadow-cyan-950/40 hover:border-cyan-400 hover:shadow-cyan-500/20 transition-colors cursor-pointer select-none ${className}`}\n    >\n      <span className=\"relative z-10 flex items-center gap-2\">\n        <span className=\"w-2 h-2 rounded-full bg-cyan-400 animate-ping\" />\n        {children}\n      </span>\n      <div className=\"absolute inset-0 rounded-xl bg-gradient-to-r from-cyan-500/10 via-blue-500/10 to-indigo-500/10 opacity-0 hover:opacity-100 transition-opacity pointer-events-none\" />\n    </motion.button>\n  )\n}\n",
+      "type": "registry:ui"
+    }
+  ]
+}

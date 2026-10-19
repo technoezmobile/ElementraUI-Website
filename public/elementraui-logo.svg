@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 48" fill="none">
+  <defs>
+    <linearGradient id="logo-grad-1" x1="4" y1="4" x2="36" y2="36" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#818CF8"/>
+      <stop offset="50%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#4F46E5"/>
+    </linearGradient>
+    <linearGradient id="logo-grad-2" x1="20" y1="20" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#A5B4FC" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#6366F1" stop-opacity="0.4"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Icon Mark -->
+  <g transform="translate(4, 4)">
+    <rect width="40" height="40" rx="10" fill="#121214" stroke="#27272A" stroke-width="1"/>
+    <rect x="8" y="8" width="11" height="11" rx="3" fill="url(#logo-grad-1)"/>
+    <rect x="21" y="8" width="11" height="11" rx="3" fill="#18181B" stroke="#3F3F46" stroke-width="1.2"/>
+    <rect x="8" y="21" width="11" height="11" rx="3" fill="#18181B" stroke="#3F3F46" stroke-width="1.2"/>
+    <rect x="21" y="21" width="11" height="11" rx="3" fill="url(#logo-grad-2)"/>
+    <circle cx="20" cy="20" r="2.5" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Typography: ElementraUI -->
+  <text x="54" y="27" font-family="'Geist', 'Inter', -apple-system, sans-serif" font-weight="700" font-size="20" fill="#F4F4F5" letter-spacing="-0.03em">Elementra<tspan fill="#818CF8">UI</tspan></text>
+  <text x="55" y="38" font-family="'JetBrains Mono', monospace" font-weight="500" font-size="9" fill="#71717A" letter-spacing="0.08em">DISCOVER • PREVIEW • BUILD</text>
+</svg>

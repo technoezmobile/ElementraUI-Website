@@ -1,0 +1,16 @@
+{
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "name": "marquee-showcase",
+  "type": "registry:ui",
+  "dependencies": [
+    "framer-motion"
+  ],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "ui/marquee-showcase.tsx",
+      "content": "import React from \"react\"\nimport { motion } from \"framer-motion\"\n\nexport interface MarqueeShowcaseProps {\n  speed?: number\n  pauseOnHover?: boolean\n}\n\nexport const MarqueeShowcase: React.FC<MarqueeShowcaseProps> = ({\n  speed = 25,\n  pauseOnHover = true,\n}) => {\n  const tags = [\n    \"Three.js WebGL\",\n    \"Framer Motion\",\n    \"Tailwind CSS v4\",\n    \"React 19\",\n    \"GLSL Shaders\",\n    \"shadcn Registry\",\n    \"Next.js 15\",\n    \"Spring Physics\",\n    \"Lucide Icons\",\n    \"Canvas 2D\",\n  ]\n\n  const list = [...tags, ...tags]\n\n  return (\n    <div className=\"relative w-full max-w-xl overflow-hidden rounded-2xl bg-slate-950 border border-slate-800 p-6 flex flex-col items-center\">\n      <div className=\"text-center mb-4\">\n        <span className=\"text-[10px] font-mono uppercase tracking-widest text-cyan-400 font-bold block mb-1\">\n          Hardware-Accelerated Ticker\n        </span>\n        <h4 className=\"text-sm font-bold text-white\">Infinite Horizontal Marquee</h4>\n      </div>\n\n      <div className=\"relative w-full overflow-hidden flex items-center group py-2\">\n        <div className=\"absolute left-0 inset-y-0 w-12 bg-gradient-to-r from-slate-950 to-transparent z-10 pointer-events-none\" />\n        <div className=\"absolute right-0 inset-y-0 w-12 bg-gradient-to-l from-slate-950 to-transparent z-10 pointer-events-none\" />\n\n        <motion.div\n          animate={{ x: [\"0%\", \"-50%\"] }}\n          transition={{\n            repeat: Infinity,\n            duration: speed,\n            ease: \"linear\",\n          }}\n          className=\"flex items-center gap-3 whitespace-nowrap group-hover:[animation-play-state:paused]\"\n        >\n          {list.map((item, idx) => (\n            <div\n              key={idx}\n              className=\"px-3.5 py-1.5 rounded-xl bg-slate-900 border border-slate-800 text-xs font-mono text-slate-300 shadow-sm flex items-center gap-1.5 hover:border-cyan-500/50 hover:text-cyan-300 transition-colors cursor-default\"\n            >\n              <span className=\"w-1.5 h-1.5 rounded-full bg-cyan-400\" />\n              {item}\n            </div>\n          ))}\n        </motion.div>\n      </div>\n      <span className=\"text-[10px] font-mono text-slate-500 mt-3\">Hover to pause continuous motion loop</span>\n    </div>\n  )\n}\n",
+      "type": "registry:ui"
+    }
+  ]
+}
