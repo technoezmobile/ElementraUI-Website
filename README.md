@@ -2,6 +2,7 @@
   <img src="public/elementraui-logo.svg" alt="ElementraUI Logo" width="380" />
   <p><strong>Discover. Preview. Build.</strong></p>
   <p><em>The Premier Open-Source UI Component Marketplace & Developer Resource Library</em></p>
+  <p><a href="https://elementra-ui-website.vercel.app">Live Demo</a> • <a href="https://github.com/technoezmobile/ElementraUI-Skill">AI Coding Skill</a></p>
 
   <p>
     <a href="#features-overview">Features</a> •
@@ -21,6 +22,14 @@
 **ElementraUI** is a modern, developer-first UI component discovery platform, design-engineering marketplace, and offline-capable resource library.
 
 Built for frontend engineers and design technologists, ElementraUI indexes over **6,750+ verified components, themes, templates, runnable mini-apps, vector icons, and motion engineering loops**. It delivers live isolated in-browser React sandboxes, secure sandboxed HTML snapshots, CSS variable palettes, and direct 1-click CLI scaffolding commands.
+
+---
+
+## Project Links
+
+- [Live Demo](https://elementra-ui-website.vercel.app)
+- [ElementraUI AI Coding Skill](https://github.com/technoezmobile/ElementraUI-Skill)
+- [Launch Guide](docs/LAUNCH.md)
 
 ---
 
@@ -176,6 +185,7 @@ Full architectural and developer documentation is available in the [`docs/`](doc
 - [docs/SECURITY.md](docs/SECURITY.md) — Security policies, iframe isolation, and vulnerability disclosure.
 - [docs/KNOWN_LIMITATIONS.md](docs/KNOWN_LIMITATIONS.md) — Technical constraints and boundaries.
 - [docs/CHANGELOG.md](docs/CHANGELOG.md) — Version release history and migration log.
+- [docs/LAUNCH.md](docs/LAUNCH.md) — Public launch checklist and announcement copy.
 
 ---
 
