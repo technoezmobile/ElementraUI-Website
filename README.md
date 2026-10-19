@@ -63,8 +63,8 @@ Built for frontend engineers and design technologists, ElementraUI indexes over 
 
 ```bash
 # Clone the repository
-git clone https://github.com/elementraui/elementraui.git
-cd elementraui
+git clone https://github.com/technoezmobile/ElementraUI-Website.git
+cd ElementraUI-Website
 
 # Install dependencies
 npm install
