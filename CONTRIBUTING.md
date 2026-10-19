@@ -22,8 +22,8 @@ By participating in this project, you agree to abide by our [Code of Conduct](CO
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/elementraui/elementraui.git
-   cd elementraui
+   git clone https://github.com/technoezmobile/ElementraUI-Website.git
+   cd ElementraUI-Website
    ```
 2. Install dependencies:
    ```bash
